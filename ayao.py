@@ -17,4 +17,3 @@ for item in total:
     items = author[0].select('a')
     con = item.select('.short')
     print(items[0].text, con[0].text)
-

@@ -91,4 +91,3 @@ result = bytes(json.dumps(data,ensure_ascii=False), encoding = "utf8")
 #print(type(result))
 with open('result.txt', 'wb') as f:
     f.write(result)
-#print(getCommer('https://movie.douban.com/subject/26752088/comments?sort=new_score&status=P','.comment-item'))
