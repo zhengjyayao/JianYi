@@ -88,6 +88,5 @@ for p in Praise:
     data[i] = Parent
     i = i+1
 result = bytes(json.dumps(data,ensure_ascii=False), encoding = "utf8")  
-#print(type(result))
 with open('result.txt', 'wb') as f:
     f.write(result)
